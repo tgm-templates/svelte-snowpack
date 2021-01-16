@@ -12,23 +12,5 @@ module.exports = {
             {cmd: 'svelte-check --output human', watch: '$1 --watch', output: 'stream'},
         ],
         ["@snowpack/plugin-webpack"]
-    ],
-    install: [
-        /* ... */
-    ],
-    installOptions: {
-        /* ... */
-    },
-    devOptions: {
-        /* ... */
-    },
-    buildOptions: {
-        /* ... */
-    },
-    proxy: {
-        /* ... */
-    },
-    alias: {
-        /* ... */
-    },
+    ]
 };
